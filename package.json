@@ -1,0 +1,32 @@
+{
+  "name": "SqirtProject-Token-Distribution",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SqirtProject/SqirtProject-Token-Distribution.git"
+  },
+  "description": "Crowdsale contracts",
+  "scripts": {},
+  "keywords": [
+    "Sqirt",
+    "solidity",
+    "ethereum",
+    "smart-contract",
+    "ICO",
+    "token"
+  ],
+  "author": "ARTmanq",
+  "license": "MIT",
+  "homepage": "https://github.com/ARTmanq",
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.23.0",
+    "ganache-cli": "^6.0.3",
+    "truffle": "^3.4.6",
+    "zeppelin-solidity": "1.3.0"
+  }
+}
