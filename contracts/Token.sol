@@ -1,8 +1,9 @@
 pragma solidity ^0.4.18;
 
 import 'zeppelin-solidity/contracts/token/MintableToken.sol';
+import 'zeppelin-solidity/contracts/token/BurnableToken.sol';
 
-contract Token is MintableToken {
+contract Token is MintableToken, BurnableToken {
 
     function Token() public Ownable() {
         balances[msg.sender] = total;
