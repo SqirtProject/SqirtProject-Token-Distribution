@@ -4,7 +4,7 @@ import 'zeppelin-solidity/contracts/token/MintableToken.sol';
 
 contract Token is MintableToken {
 
-    function Token() public {
+    function Token() public Ownable() {
         balances[msg.sender] = total;
         finishMinting();
     }
